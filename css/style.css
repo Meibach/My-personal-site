@@ -1,0 +1,170 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	color: white;
+	font-size: 20px;
+	font-family: tahoma;
+	background: #e1c4ff;
+}
+
+.header {
+		margin: 10px 160px 10px 160px;
+		text-align: center;
+		width: 70%;
+}
+
+.inner-header {
+	background: #3d3c66;
+	height: 50px;
+	padding-top: 10px;
+}
+
+
+.sidebar-1 {
+	padding-right: 10px;
+	float: left;
+	width: 160px;
+	position: absolute;
+	padding-top: 10px;
+
+}
+
+.inner-sidebar-1 {
+	background: #3d3c66;
+	min-height: 500px;
+	
+
+}
+
+.inner-sidebar-1 ul {
+
+	list-style-type: none;
+    list-style-image: none;
+    margin: 0;
+    padding-left: 0px;
+}
+
+.inner-sidebar-1 a {
+	color: white;
+}
+.inner-sidebar-1 a:visited {
+	color: #a8f4f4;
+}
+.inner-sidebar-1 a:hover {
+	color: yellow;
+}
+
+   
+.content {
+	width: 70%;
+	float: left;
+	min-height: 500px;
+	margin: 10px 160px 10px 160px;
+	border: white;
+}
+
+.inner-content {
+	background: #3d3c66;
+	padding:10px;
+	min-height: 500px;
+
+}
+
+.content-1 {
+	width:100%;
+	background: #3d3c66;
+}
+
+.inner-content-1 {
+	background: #49487a;
+	min-height:150px;
+	margin-bottom: 10px;
+}
+
+
+.row:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.row { display: inline-block; }
+/* start commented backslash hack \*/
+.row { height: 1%; }
+.row { display: block; }
+/* close commented backslash hack */
+
+
+
+.comments {
+	width: 70%;
+	margin: 10px 160px 10px 160px;
+	min-height: 800px;
+
+
+}
+
+.inner-comments {
+	background: #3d3c66;
+	height: 400 px;
+	width: 100%;
+    color: yellow;
+
+}
+
+.footer {
+	width: 70%;
+	margin: 10px 160px 10px 160px;
+	min-height: 500px;
+
+
+}
+
+.inner-footer {
+	background: #3d3c66;
+	height: 400 px;
+	width: 100%;
+}
+
+
+
+.contacts {
+	width:100%;
+	background: #3d3c66;
+}
+.inner-contacts{
+	background: #49487a;
+	min-height:150px;
+	margin-bottom: 10px;
+}
+.social {
+	float: left;
+}
+
+.articles h3 {
+	color: #c5f442;
+	font-style: italic;
+	text-align: center;
+}
+#cytata1, #cytata2 {
+	text-align: right;
+	font-size: 16px;
+	font-style: italic;
+}
+.acticles-text {
+	text-align: justify;
+	font-size: 18px;
+}
+
+.error {
+    color: red;
+}
+
+.name {
+    font-style: italic;
+    color: tomato;
+}
